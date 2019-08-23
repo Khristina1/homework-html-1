@@ -1,87 +1,98 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Пройди тест)</title>
-</head>
-<body>
-<a href="index.html"><i>Початкова сторінка</i></a>
-  <form action="https://formspree.io/sokeyush@gmail.com" method="POST">
-<input type="text" placeholder="Введіть текст" name="text-area"><br>
-<h3>Реєстрація:</h3>
-<label>
-    Електронна адреса або телефон: <input type="email" name="user-name">
-</label>
-<br><br>
-<label>
-    Пароль (не менше 8 символів): <input type="password" name="password" minlength="8" required>
-</label>
-<br><br>
-<input type="submit" value="Зареєструватись">
-<hr>
-  </form>
-  <form action="https://formspree.io/sokeyush@gmail.com" method="POST">
-<h2>Пройди тест</h2>
-<label>
-    Улюблений жанр фільму: <input type="radio" name="gender"> Комедія
-</label>
-<input type="radio" name="gender"> Бойовик
-<input type="radio" name="gender"> Драма
-<input type="radio" name="gender"> Жахи
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Пройди тест)</title>
+    </head>
+    <body>
+        <a href="index.html">
+            <i>Початкова сторінка</i>
+        </a>
+        <form action="https://formspree.io/sokeyush@gmail.com" method="POST">
+            <input type="text" placeholder="Введіть текст" name="text-area">
+            <br>
+            <h3>Реєстрація:</h3>
+            <label>
+                Електронна адреса або телефон: <input type="email" name="user-name">
+            </label>
+            <br>
+            <br>
+            <label>
+                Пароль (не менше 8 символів): <input type="password" name="password" minlength="8" required>
+            </label>
+            <br>
+            <br>
+            <input type="submit" value="Зареєструватись">
+            <hr>
+        </form>
+        <form action="https://formspree.io/sokeyush@gmail.com" method="POST">
+            <h2>Пройди тест</h2>
+            <label>
+                Улюблений жанр фільму: <input type="radio" name="gender">Комедія
+
+            </label>
+            <input type="radio" name="gender">
+            Бойовик
+<input type="radio" name="gender">
+            Драма
+<input type="radio" name="gender">
+            Жахи
 <br>
-<label>
-    Улюблений фільм 2019: <input type="checkbox" name="film"> Смертельний лабіринт
-</label>
-      <label>
-<input type="checkbox" name="film"> Шазам
-      </label>
-      <label>
-<input type="checkbox" name="film"> Lego фільм
-      </label>
+            <label>
+                Улюблений фільм 2019: <input type="checkbox" name="film">Смертельний лабіринт
+
+            </label>
+            <label>
+                <input type="checkbox" name="film">Шазам
+      
+            </label>
+            <label>
+                <input type="checkbox" name="film">Lego фільм
+      
+            </label>
+            <br>
+            <label>
+                Завантажте фото вашого фільму: <input type="file" name="photo" accept="image/png, image/jpeg">
+            </label>
+            <br>
+            <label>
+                Введіть цифру від 10 до 100 <input type="number" name="num" min="10" max="100">
+            </label>
+            <br>
+            <label>
+                Аудіо налаштування: <input type="range" name="volume" min="0" max="20">
+            </label>
+            <br>
+            <label>
+                Введіть назву вашого улюбленого фільму: <input type="text" name="id">
+                <input type="reset" value="Видалити">
+                <input type="submit" value="Надіслати"</label>
 <br>
-<label>
-    Завантажте фото вашого фільму: <input type="file" name="photo" accept="image/png, image/jpeg">
-</label>
-<br>
-<label>
-    Введіть цифру від 10 до 100 <input type="number" name="num" min="10" max="100">
-</label>
-<br>
-<label>
-    Аудіо налаштування: <input type="range" name="volume" min="0" max="20">
-</label>
-<br>
-<label>
-    Введіть назву вашого улюбленого фільму: <input type="text" name="id">
-<input type="reset" value="Видалити">
-<input type="submit" value="Надіслати"
-</label>
-<br>
-<label>
-    Введіть ваш номер телефону <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" max="10" required >
-     <small>Приклад: 123-456-7890</small>
-</label>
-<br>
-<label>
-    Введіть https:// URL: <input type="url" name="url" placeholder="https://example.com" size="30">
-</label>
-<br>
-<label>
-    Оберіть ваш улюблений колір: <input type="color" name="color" value="#7E08F1">
-    <input type="color" name="color" value="#1BF108">
-    <input type="color" name="color" value="#F1E208">
-    <input type="color" name="color" value="#F12908">
-</label>
-<br>
-<label>
-    Оберіть час закінчення тесту: <input type="time" name="appt" min="24:00" max="24:00" >
-</label>
-<br>
-<label>
-Відправити дані: <input type="submit" value="Відправити)">
-    </label>
-  </form>
-</body>
+                <label>
+                    Введіть ваш номер телефону <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" max="10" required>
+                    <small>Приклад: 123-456-7890</small>
+                </label>
+                <br>
+                <label>
+                    Введіть https:// URL: <input type="url" name="url" placeholder="https://example.com" size="30">
+                </label>
+                <br>
+                <label>
+                    Оберіть ваш улюблений колір: <input type="color" name="color" value="#7E08F1">
+                    <input type="color" name="color" value="#1BF108">
+                    <input type="color" name="color" value="#F1E208">
+                    <input type="color" name="color" value="#F12908">
+                </label>
+                <br>
+                <label>
+                    Оберіть час закінчення тесту: <input type="time" name="appt" min="24:00" max="24:00">
+                </label>
+                <br>
+                <label>
+                    Відправити дані: <input type="submit" value="Відправити)">
+                </label>
+        </form>
+    </body>
 </html>
